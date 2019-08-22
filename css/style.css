@@ -422,7 +422,7 @@ input[type="radio"].visibility-hidden {
   color:black;
   background: white;
   border:5px solid #00A480;
-  min-height: 940px;
+  min-height: 1150px;
 }
 
 .slider-data{
@@ -590,9 +590,8 @@ input[type="radio"].visibility-hidden {
   display: inline-block;
   vertical-align: middle;
   box-sizing: border-box;
-/*   width: 100%; */
-  height: 3px;
   width: 30%;
+  height: 3px;
   /*background: #6CBD83;*/
   background: #000;
   border: solid #000;
