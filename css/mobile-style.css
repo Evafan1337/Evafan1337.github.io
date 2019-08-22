@@ -65,4 +65,8 @@
 		margin:0 auto;
 		/*transform: scale(0.9);*/
 	}
+
+	.slider__image--university-security{
+		display: none;
+	}
 }
