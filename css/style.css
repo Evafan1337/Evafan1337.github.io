@@ -576,6 +576,7 @@ input[type="radio"].visibility-hidden {
 }
 
 .footer-author{
+  padding-top: 30px;
   color:black;
   font-size: 32px;
   text-align: center;
