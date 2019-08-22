@@ -580,6 +580,7 @@ input[type="radio"].visibility-hidden {
   color:black;
   font-size: 32px;
   text-align: center;
+  overflow: hidden;
   /*border-top: 1px solid black;*/
 }
 
