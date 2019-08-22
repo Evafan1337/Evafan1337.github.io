@@ -78,8 +78,10 @@ ul{
 
 .header-wrapper{
   background: url(../images/jpgMainBackground.jpg);
-  box-shadow:0 0 0 940px rgba(0, 0, 0, 0.65) inset;
-  /*min-height: 300px;*/
+  box-shadow: 0 0 0 940px rgba(0, 0, 0, 0.65) inset;
+  /* min-height: 300px; */
+  background-size: cover;
+  background-position: center;
 }
 
 .visibility-hidden:not(:focus):not(:active),
