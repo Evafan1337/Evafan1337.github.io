@@ -5,8 +5,8 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap&subset=cyrillic" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap&subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" href="../css/style.css">
-	<link rel="stylesheet" href="../css/mobile-style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mobile-style.css">
 	<title>Document</title>
 </head>
 <body>
@@ -14,19 +14,19 @@
 		<h1 class="header__main-header">Сайт веб-разработчика Александра Ершова.</h1>
 		<nav class="navigation container">
 			<div class="navigation__elem">
-				<a class="navigation__link" href="">Обо мне</a>
+				<a class="navigation__link" href="#about_me">Обо мне</a>
 			</div>
 			
 			<div class="navigation__elem">
-				<a class="navigation__link" href="">Портфолио</a>
+				<a class="navigation__link" href="#projects">Работы</a>
 			</div>
 			
 			<div class="navigation__elem">
-				<a class="navigation__link" href="">Квалификация</a>
+				<a class="navigation__link" href="#qualification">Квалификация</a>
 			</div>
 			
 			<div class="navigation__elem">
-				<a class="navigation__link" href="">Связаться</a>
+				<a  class="navigation__link" href="#contacts">Связаться</a>
 			</div>
 		</nav>
 		<section class="preview container--wide">
@@ -36,19 +36,22 @@
 	</header>
 	<main>
 		<div class="introduction-wrapper">
+			<a name = "about_me"></a>
 			<section class='introduction container container--wide'>
 				<div class='introduction-elem'>
 					<img class="introduction__photo" src="images/jpgMyPhotoSized.jpg" alt="" width="180" height="180">
 					<p class="introduction__text">Меня зовут Александр и мне почти 20 лет. Я студент третьего курса и одновременно начинающий веб-разработчик.</p>
 				</div>
-
 				<div class='introduction-elem'>
-					<img class="introduction__photo" src="images/pngOrder.png" alt="" width="180" height="180">
+					<!-- <img class="introduction__photo" src="images/pngOrder.png" alt="" width="180" height="180"> -->
+					<img class="introduction__photo" src="images/jpgNotebookImage.jpg" alt="" width="180" height="180">
 					<p class="introduction__text">Сверстаю вам лендинг или разработаю сайт под ключ. Всю верстку и наладку возьму на себя. С вас только одобрение дизайна и некоторых деталей.</p>
 				</div>
 
 				<div class='introduction-elem'>
-					<img class="introduction__photo" src="images/pngCoding.png" alt="" width="180" height="180">
+					<!-- <img class="introduction__photo" src="images/pngCoding.png" alt="" width="180" height="180"> -->
+					<img class="introduction__photo" src="images/jpgStack.jpg" alt="" width="180" height="180">
+					<!-- <img class="introduction__photo" src="images/jpgHosting.jpg" alt="" width="180" height="180"> -->
 					<h3 class="introduction__header">Краткий стек моих технологий.</h3>
 					<ul class="introduction-list">
 						<li>HTML5/CSS3</li>
@@ -59,14 +62,16 @@
 				</div>
 
 				<div class='introduction-elem'>
-					<img class="introduction__photo" src="images/pngHosting.png" alt="" width="180" height="180">
+					<!-- <img class="introduction__photo" src="images/pngHosting.png" alt="" width="180" height="180"> -->
+					<img class="introduction__photo" src="images/jpgHosting.jpg" alt="" width="180" height="180">
 					<p class="introduction__text">Залью ваш сайт на хостинг, настрою рассылку писем. Все свои сайты я делаю адаптивными под мобильные устройства. Верстка осуществляется по БЭМ'у.</p>
 				</div>
 			</section>
 		</div>
 		<!-- container -->
+		<a name = "projects"></a>
 		<section class="portfolio">
-			<h2 class="portfolio__header">Мои работы</h2>
+			<h2 class="portfolio__header">Готовые проекты</h2>
 			<div class="portfolio-inner container">
 				<div class="portfolio-inner-elem portfolio-inner-elem--technomart">
 					<div class="portfolio-information-container">
@@ -84,6 +89,8 @@
 						<a class="portfolio__link" href="">Ознакомиться с проектом.</a>
 						<a class="portfolio__link" href="">Исходный код на GitHub.</a>
 					</div>
+					<span class="portfolio__open portfolio__open--technomart"></span>
+					<span class="portfolio__close portfolio__close--technomart hidden"></span>
 				</div>
 
 				<div class="portfolio-inner-elem portfolio-inner-elem--doingsdone">
@@ -104,6 +111,8 @@
 						<a class="portfolio__link" href="">Ознакомиться с проектом.</a>
 						<a class="portfolio__link" href="">Исходный код на GitHub.</a>
 					</div>
+					<span class="portfolio__open portfolio__open--doingsdone"></span>
+					<span class="portfolio__close portfolio__close--doingsdone hidden"></span>
 				</div>
 
 				<div class="portfolio-inner-elem portfolio-inner-elem--full-row portfolio-inner-elem--autobuy">
@@ -122,6 +131,8 @@
 					<div class="portfolio-link-container">
 						<a class="portfolio__link" href="">Ознакомиться с проектом.</a>
 					</div>
+					<span class="portfolio__open"></span>
+					<span class="portfolio__close hidden"></span>
 				</div>
 
 				<div class="portfolio-inner-elem portfolio-inner-elem--cybersport-union">
@@ -141,6 +152,8 @@
 						<a class="portfolio__link" href="">Ознакомиться с проектом.</a>
 						<a class="portfolio__link" href="">Исходный код на GitHub.</a>
 					</div>
+					<span class="portfolio__open portfolio__open--cybersport"></span>
+					<span class="portfolio__close portfolio__close--cybersport hidden"></span>
 				</div>
 
 				<div class="portfolio-inner-elem portfolio-inner-elem--motorchik">
@@ -159,24 +172,39 @@
 						<a class="portfolio__link" href="">Ознакомиться с проектом.</a>
 						<a class="portfolio__link" href="">Исходный код на GitHub.</a>
 					</div>
+					<span class="portfolio__open portfolio__open--motorchik"></span>
+					<span class="portfolio__close portfolio__close--motorchik hidden"></span>
 				</div>
 				<!-- <div class="portfolio-inner-elem">6</div> -->
 			</div>
 		</section>
-
+		
+		<a name = "contacts"></a>
 		<section class="contacts">
 			<h2 class="contacts__header">Контакты</h2>
 			<p class="contacts__info">Связаться со мной можно через социальные сети или почту.</p>
 			<div class="container contacts-inner">
-				<img src="images/svgEmail.svg" alt="" width="225" height="225">
-				<img src="images/svgVK.svg" alt="" width="225" height="225">
-				<img src="images/svgInstagram.svg" alt="" width="225" height="225">
-				<img src="images/svgTelegram.svg" alt="" width="225" height="225">
+				<a href="mailto:as007ershov@gmail.com?subject=Вопрос автору.">
+					<img class="contacts__elem" src="images/svgEmail.svg" alt="" width="200" height="200">
+				</a>
+
+				<a href="https://vk.com/maltesersing">
+					<img class="contacts__elem" src="images/svgVK.svg" alt="" width="200" height="200">	
+				</a>
+
+				<a href="https://www.instagram.com/alexandr6354/">
+					<img class="contacts__elem" src="images/svgInstagram.svg" alt="" width="200" height="200">
+				</a>
+				
+				<a href="tg://resolve?domain=<RaneRamen>">
+					<img class="contacts__elem" src="images/svgTelegram.svg" alt="" width="200" height="200">
+				</a>
+				
 			</div>
 			
 			<!-- <img src="images/svgViberLogo.svg" alt="" width="150" height="150"> -->
 		</section>
-		
+		<a name="qualification"></a>
 		<div class="ending-wrapper">
 			<h2 class="qualification__header">Квалификация</h2>
 			<section class="slider-inner container">
@@ -202,12 +230,12 @@
 						</div>
 					</div>
 				</div>
-
+				<a name = "qualification"></a>
 				<div class="slider-elem hidden">
 					<p class="slider__title">PHP, уровень 1</p>
 					<div class="debug-slider debug-slider--academy">
 						<div class="slider-data">
-							<img class="slider__image slider__image--html" src= "images/jpgAcademyPHP.jpg" width=513 height="720">
+							<img class="slider__image slider__image--html" src= "images/jpgAcademyPHP.jpg" width=513 height="720" alt="">
 						</div>
 
 						<div class="slider-other-data">
@@ -229,7 +257,7 @@
 					<p class="slider__title">HTML и CSS, уровень 1</p>
 					<div class="debug-slider debug-slider--academy">
 						<div class="slider-data">
-							<img class="slider__image slider__image--html" src= "images/jpgAcademyHtml.jpg" width=513 height="720">
+							<img class="slider__image slider__image--html" src= "images/jpgAcademyHtml.jpg" width=513 height="720" alt="">
 						</div>
 
 						<div class="slider-other-data">
@@ -251,30 +279,26 @@
 			<footer class="footer">
 				<nav class="navigation container">
 					<div class="navigation__elem">
-						<a class="navigation__link" href="">Обо мне</a>
+						<a class="navigation__link" href="#about_me">Обо мне</a>
 					</div>
 					
 					<div class="navigation__elem">
-						<a class="navigation__link" href="">Портфолио</a>
+						<a class="navigation__link" href="#projects">Работы</a>
 					</div>
 					
 					<div class="navigation__elem">
-						<a class="navigation__link" href="">Квалификация</a>
+						<a class="navigation__link" href="#qualification">Квалификация</a>
 					</div>
 					
 					<div class="navigation__elem">
-						<a class="navigation__link" href="">Связаться</a>
+						<a  class="navigation__link" href="#contacts">Связаться</a>
 					</div>
 				</nav>
 				<p class="footer-author container">Ершов Александр.2019</p>
 			</footer>
 		</div>
 	</main>
-	<!-- <footer class="test-two">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptatum recusandae in quod tenetur fugit cumque animi doloribus. Repellendus quod ipsam iusto, voluptatibus aliquam praesentium consequatur maxime illum quo voluptatem.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptatum recusandae in quod tenetur fugit cumque animi doloribus. Repellendus quod ipsam iusto, voluptatibus aliquam praesentium consequatur maxime illum quo voluptatem.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptatum recusandae in quod tenetur fugit cumque animi doloribus. Repellendus quod ipsam iusto, voluptatibus aliquam praesentium consequatur maxime illum quo voluptatem.</p>
-	</footer> -->
+	<script src="js/manual_open.js"></script>
 	<script src="js/slider.js"></script>
 </body>
 </html>
