@@ -94,6 +94,14 @@
 	.slider__image{
 		/*transform: scale(0.6);*/
 	}
+
+	.portfolio__open{
+		/*display: block;*/
+	}
+
+	.portfolio__explain-mobile{
+		display: block;
+	}
 }
 
 @media screen and (max-width: 600px){
