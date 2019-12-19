@@ -383,6 +383,8 @@ input[type="radio"].visibility-hidden {
   /*background-position-x: -260px;*/
 }
 
+.portfolio-inner-elem:focus,
+.portfolio-inner-elem:active,
 .portfolio-inner-elem:hover {
   /*transition-delay: 750ms;*/
   /*transition-duration: 350ms;*/
