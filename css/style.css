@@ -383,6 +383,16 @@ input[type="radio"].visibility-hidden {
   /*background-position-x: -260px;*/
 }
 
+.portfolio__explain-mobile{
+    /*display: block;*/
+    display: none;
+    text-align: center;
+    font-size: 14px;
+    padding: 25px;
+    opacity: 0.75;
+    font-weight: bold;
+}
+
 .portfolio-inner-elem:focus,
 .portfolio-inner-elem:active,
 .portfolio-inner-elem:hover {
