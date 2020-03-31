@@ -370,6 +370,12 @@ input[type="radio"].visibility-hidden {
   background-position-x: -260px;
 }
 
+.portfolio-inner-elem--auction{
+  background: linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),  url(../images/image.png);
+  background-position-x: -190px;
+  background-position-y: 0px;
+}
+
 .portfolio-inner-elem--motorchik {
   background-size: cover;
   background-position: center;
