@@ -148,6 +148,12 @@
 	.slider__image{
 		transform: scale(0.6);
 	}
+
+	.portfolio-inner-elem--auction{
+		/*background-position*/
+		background-position-x: -390px;
+		background-position-y: -0px;
+	}
 }
 
 @media screen and (max-width: 360px){
