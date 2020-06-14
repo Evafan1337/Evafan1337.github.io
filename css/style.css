@@ -371,9 +371,23 @@ input[type="radio"].visibility-hidden {
 }
 
 .portfolio-inner-elem--auction{
-  background: linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),  url(../images/image.png);
-  background-position-x: -190px;
-  background-position-y: 0px;
+  background: linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),  url(../images/pngAuction.png);
+  /*background-color: rgba(155,155,155, 1);*/
+  background-position-x: center;
+  background-repeat: no-repeat;
+  /*background-position: center;*/
+  background-size: cover;
+  /*background-position-y: 50px;*/
+}
+
+.portfolio-inner-elem--catenergy{
+  background: linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),  url(../images/webpCatEnergy.webp);
+  /*background-color: rgba(155,155,155, 1);*/
+  background-position-x: left;
+  background-repeat: no-repeat;
+  /*background-position: center;*/
+  background-size: cover;
+  /*background-position-y: 50px;*/
 }
 
 .portfolio-inner-elem--motorchik {
